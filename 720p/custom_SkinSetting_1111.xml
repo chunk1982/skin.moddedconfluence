@@ -820,7 +820,7 @@
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/hdmovies.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_HD_Folder)]</thumb>
-						</item>
+						    </item>
 							<item id="2">
 								<label>2</label>
 								<label2>Home_Custom_Back_Music_Folder</label2>
@@ -890,9 +890,41 @@
 							<label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
 							<label2>Home_Custom_Back_Fav_Folder</label2>
 							<onclick>-</onclick>
-							<icon>special://skin/backgrounds/videos.jpg</icon>
+							<icon>special://skin/backgrounds/custom.jpg</icon>
 							<thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
 							<visible>Skin.HasSetting(Menu_Custom8)</visible>
+                            </item> 
+							<item id="444001">
+							<label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
+							<label2>Home_Custom_Back_Fav_Folder</label2>
+							<onclick>-</onclick>
+							<icon>special://skin/backgrounds/custom.jpg</icon>
+							<thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
+							<visible>Skin.HasSetting(Menu_Custom9)</visible>
+							</item>
+							<item id="444002">
+							<label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
+							<label2>Home_Custom_Back_Fav_Folder</label2>
+							<onclick>-</onclick>
+							<icon>special://skin/backgrounds/custom.jpg</icon>
+							<thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
+							<visible>Skin.HasSetting(Menu_Custom10)</visible>
+							</item>
+							<item id="444003">
+							<label>$INFO[Skin.String(Menu_Custom11_Label)]</label>
+							<label2>Home_Custom_Back_Fav_Folder</label2>
+							<onclick>-</onclick>
+							<icon>special://skin/backgrounds/custom.jpg</icon>
+							<thumb>$INFO[Skin.String(Menu_Custom11_Folder)]</thumb>
+							<visible>Skin.HasSetting(Menu_Custom11)</visible>
+							</item>
+							<item id="444004">
+							<label>$INFO[Skin.String(Menu_Custom12_Label)]</label>
+							<label2>Home_Custom_Back_Fav_Folder</label2>
+							<onclick>-</onclick>
+							<icon>special://skin/backgrounds/custom.jpg</icon>
+							<thumb>$INFO[Skin.String(Menu_Custom12_Folder)]</thumb>
+							<visible>Skin.HasSetting(Menu_Custom12)</visible>
 						</item>
 						</content>
 					</control>
@@ -1346,7 +1378,7 @@
 							<onclick>Skin.SetAddon(HomeProgramButton4,xbmc.addon.executable)</onclick>
 							<visible>!Skin.HasSetting(LowerMenu)</visible>
 						</control>
-						<control type="button" id="445">
+						<control type="button" id="444001">
 							<width>750</width>
 							<height>40</height>
 							<font>font13</font>
@@ -1359,7 +1391,7 @@
 							<onclick>Skin.SetAddon(HomeProgramButton5,xbmc.addon.executable)</onclick>
 							<visible>!Skin.HasSetting(LowerMenu)</visible>
 						</control>
-						<control type="button" id="446">
+						<control type="button" id="444002">
 							<width>750</width>
 							<height>40</height>
 							<font>font13</font>
@@ -1370,6 +1402,58 @@
 							<texturefocus>MenuItemFO.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
 							<onclick>Skin.SetAddon(HomeProgramButton6,xbmc.addon.executable)</onclick>
+							<visible>!Skin.HasSetting(LowerMenu)</visible>
+						</control>
+						<control type="button" id="444003">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]7[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeProgramButton7))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeProgramButton7,xbmc.addon.executable)</onclick>
+							<visible>!Skin.HasSetting(LowerMenu)</visible>
+						</control>
+						<control type="button" id="444004">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]8[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeProgramButton8))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeProgramButton8,xbmc.addon.executable)</onclick>
+							<visible>!Skin.HasSetting(LowerMenu)</visible>
+						</control>
+						<control type="button" id="445">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]9[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeProgramButton9))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeProgramButton9,xbmc.addon.executable)</onclick>
+							<visible>!Skin.HasSetting(LowerMenu)</visible>
+						</control>
+						<control type="button" id="446">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]10[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeProgramButton10))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeProgramButton10,xbmc.addon.executable)</onclick>
 							<visible>!Skin.HasSetting(LowerMenu)</visible>
 						</control>
 					</control>

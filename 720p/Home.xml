@@ -1053,10 +1053,42 @@
 					<item id="444">
 						<description>Custom FAV Five</description>
 						<label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
-						<icon>special://skin/media/backgrounds/custom.jpg</icon>
+						<icon>special://skin/media/backgrounds/ufc.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Fav_Folder)]</thumb>
 						<onclick>$INFO[Skin.String(Menu_Custom8_Path)]</onclick>
 						<visible>Skin.HasSetting(Menu_Custom8)</visible>
+					</item>
+					<item id="444001">
+						<description>Custom FAV Five</description>
+						<label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
+						<icon>special://skin/media/backgrounds/tvaddon.jpg</icon>
+						<thumb>$INFO[Skin.String(Home_Custom_Back_Fav_Folder)]</thumb>
+						<onclick>$INFO[Skin.String(Menu_Custom9_Path)]</onclick>
+						<visible>Skin.HasSetting(Menu_Custom9)</visible>
+					</item>
+					<item id="444002">
+						<description>Custom FAV Five</description>
+						<label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
+						<icon>special://skin/media/backgrounds/music.jpg</icon>
+						<thumb>$INFO[Skin.String(Home_Custom_Back_Fav_Folder)]</thumb>
+						<onclick>$INFO[Skin.String(Menu_Custom10_Path)]</onclick>
+						<visible>Skin.HasSetting(Menu_Custom10)</visible>
+					</item>
+					<item id="444003">
+						<description>Custom FAV Five</description>
+						<label>$INFO[Skin.String(Menu_Custom11_Label)]</label>
+						<icon>special://skin/media/backgrounds/scripts.jpg</icon>
+						<thumb>$INFO[Skin.String(Home_Custom_Back_Fav_Folder)]</thumb>
+						<onclick>$INFO[Skin.String(Menu_Custom11_Path)]</onclick>
+						<visible>Skin.HasSetting(Menu_Custom11)</visible>
+					</item>
+					<item id="444004">
+						<description>Custom FAV Five</description>
+						<label>$INFO[Skin.String(Menu_Custom12_Label)]</label>
+						<icon>special://skin/media/backgrounds/custom.jpg</icon>
+						<thumb>$INFO[Skin.String(Home_Custom_Back_Fav_Folder)]</thumb>
+						<onclick>$INFO[Skin.String(Menu_Custom12_Path)]</onclick>
+						<visible>Skin.HasSetting(Menu_Custom12)</visible>
 					</item>
 					<item id="4">
 						<label>1</label>
