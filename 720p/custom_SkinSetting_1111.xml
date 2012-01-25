@@ -887,45 +887,45 @@
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Addons_Folder)]</thumb>
 							</item>
 							<item id="23">
-							<label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
-							<label2>Home_Custom_Back_Fav_Folder</label2>
-							<onclick>-</onclick>
-							<icon>special://skin/backgrounds/custom.jpg</icon>
-							<thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
-							<visible>Skin.HasSetting(Menu_Custom8)</visible>
+							    <label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
+							    <label2>Home_Custom_Back_Fav_Folder</label2>
+							    <onclick>-</onclick>
+							    <icon>special://skin/backgrounds/custom.jpg</icon>
+							    <thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
+							    <visible>Skin.HasSetting(Menu_Custom8)</visible>
                             </item> 
 							<item id="444001">
-							<label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
-							<label2>Home_Custom_Back_Fav_Folder</label2>
-							<onclick>-</onclick>
-							<icon>special://skin/backgrounds/custom.jpg</icon>
-							<thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
-							<visible>Skin.HasSetting(Menu_Custom9)</visible>
+							    <label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
+							    <label2>Home_Custom_Back_Fav_Folder</label2>
+							    <onclick>-</onclick>
+							    <icon>special://skin/backgrounds/custom.jpg</icon>
+							    <thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
+							    <visible>Skin.HasSetting(Menu_Custom9)</visible>
 							</item>
 							<item id="444002">
-							<label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
-							<label2>Home_Custom_Back_Fav_Folder</label2>
-							<onclick>-</onclick>
-							<icon>special://skin/backgrounds/custom.jpg</icon>
-							<thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
-							<visible>Skin.HasSetting(Menu_Custom10)</visible>
+							    <label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
+							    <label2>Home_Custom_Back_Fav_Folder</label2>
+							    <onclick>-</onclick>
+							    <icon>special://skin/backgrounds/custom.jpg</icon>
+							    <thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
+							    <visible>Skin.HasSetting(Menu_Custom10)</visible>
 							</item>
 							<item id="444003">
-							<label>$INFO[Skin.String(Menu_Custom11_Label)]</label>
-							<label2>Home_Custom_Back_Fav_Folder</label2>
-							<onclick>-</onclick>
-							<icon>special://skin/backgrounds/custom.jpg</icon>
-							<thumb>$INFO[Skin.String(Menu_Custom11_Folder)]</thumb>
-							<visible>Skin.HasSetting(Menu_Custom11)</visible>
+							   <label>$INFO[Skin.String(Menu_Custom11_Label)]</label>
+							   <label2>Home_Custom_Back_Fav_Folder</label2>
+							   <onclick>-</onclick>
+							   <icon>special://skin/backgrounds/custom.jpg</icon>
+							   <thumb>$INFO[Skin.String(Menu_Custom11_Folder)]</thumb>
+							   <visible>Skin.HasSetting(Menu_Custom11)</visible>
 							</item>
 							<item id="444004">
-							<label>$INFO[Skin.String(Menu_Custom12_Label)]</label>
-							<label2>Home_Custom_Back_Fav_Folder</label2>
-							<onclick>-</onclick>
-							<icon>special://skin/backgrounds/custom.jpg</icon>
-							<thumb>$INFO[Skin.String(Menu_Custom12_Folder)]</thumb>
-							<visible>Skin.HasSetting(Menu_Custom12)</visible>
-						</item>
+							   <label>$INFO[Skin.String(Menu_Custom12_Label)]</label>
+							   <label2>Home_Custom_Back_Fav_Folder</label2>
+							   <onclick>-</onclick>
+							   <icon>special://skin/backgrounds/custom.jpg</icon>
+							   <thumb>$INFO[Skin.String(Menu_Custom12_Folder)]</thumb>
+							   <visible>Skin.HasSetting(Menu_Custom12)</visible>
+							 </item>
 						</content>
 					</control>
 					<control type="image">
