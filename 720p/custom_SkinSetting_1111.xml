@@ -851,7 +851,15 @@
 								<thumb>$INFO[Skin.String(Menu_Custom2_Folder)]</thumb>
 								<visible>Skin.HasSetting(Menu_Custom2)</visible>
 							</item>
-							<item id="444001">
+							<item id="507">
+								<label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
+								<label2>Menu_Custom8_Folder</label2>
+								<onclick>-</onclick>
+								<icon>special://skin/backgrounds/custom.jpg</icon>
+								<thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
+								<visible>Skin.HasSetting(Menu_Custom8)</visible>
+							</item>
+							<item id="508">
 								<label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
 								<label2>Menu_Custom9_Folder</label2>
 								<onclick>-</onclick>
@@ -859,7 +867,7 @@
 								<thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
 								<visible>Skin.HasSetting(Menu_Custom9)</visible>
 							</item>
-							<item id="444002">
+							<item id="509">
 								<label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
 								<label2>Menu_Custom10_Folder</label2>
 								<onclick>-</onclick>
@@ -867,7 +875,7 @@
 								<thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
 								<visible>Skin.HasSetting(Menu_Custom10)</visible>
 							</item>
-							<item id="444003">
+							<item id="510">
 								<label>$INFO[Skin.String(Menu_Custom11_Label)]</label>
 								<label2>Menu_Custom11_Folder</label2>
 								<onclick>-</onclick>
@@ -875,7 +883,7 @@
 								<thumb>$INFO[Skin.String(Menu_Custom11_Folder)]</thumb>
 								<visible>Skin.HasSetting(Menu_Custom11)</visible>
 							</item>
-							<item id="444004">
+							<item id="511">
 								<label>$INFO[Skin.String(Menu_Custom12_Label)]</label>
 								<label2>Menu_Custom12_Folder</label2>
 								<onclick>-</onclick>

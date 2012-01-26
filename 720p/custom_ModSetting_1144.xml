@@ -499,7 +499,7 @@
 							<onclick>ActivateWindow(1114)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom8)</visible>
 						</control>
-						<control type="radiobutton" id="50800">
+						<control type="radiobutton" id="508">
 							<description>custom home 9</description>
 							<font>cirrus_20</font>
 							<width>750</width>
@@ -513,7 +513,7 @@
 							<selected>Skin.HasSetting(Menu_Custom9)</selected>
 							<enable>!Skin.HasSetting(Menu_Movies_Sub9)</enable>
 						</control>
-						<control type="button" id="821700">
+						<control type="button" id="8217">
 							<description>Menu Movies Sub Custom9 Label</description>
 							<label>Label</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom9_Label)][/COLOR]</label2>
@@ -527,7 +527,7 @@
 							<onclick>Skin.SetString(Menu_Custom9_Label)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom9)</visible>
 						</control>
-						<control type="button" id="821800">
+						<control type="button" id="8218">
 							<description>Menu Movies Sub Custom9 Path</description>
 							<label>Pfad</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom9_Path)][/COLOR]</label2>
@@ -538,11 +538,11 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus>MenuItemFO.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetString(Menu_Sub_Custom_Favourites_Path,Menu_Custom9_Path)</onclick>
+							<onclick>Skin.SetString(Menu_Sub_Custom_Favourites_Path_Menu_Custom9_Path)</onclick>
 							<onclick>ActivateWindow(1114)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom9)</visible>
 						</control>
-		                <control type="radiobutton" id="50900">
+		                <control type="radiobutton" id="509">
 							<description>custom home 10</description>
 							<font>cirrus_20</font>
 							<width>750</width>
@@ -556,7 +556,7 @@
 							<selected>Skin.HasSetting(Menu_Custom10)</selected>
 							<enable>!Skin.HasSetting(Menu_Movies_Sub10)</enable>
 						</control>
-						<control type="button" id="821900">
+						<control type="button" id="8219">
 							<description>Menu Movies Sub Custom10 Label</description>
 							<label>Label</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom10_Label)][/COLOR]</label2>
@@ -570,7 +570,7 @@
 							<onclick>Skin.SetString(Menu_Custom10_Label)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom10)</visible>
 						</control>
-						<control type="button" id="822000">
+						<control type="button" id="8220">
 							<description>Menu Movies Sub Custom10 Path</description>
 							<label>Pfad</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom10_Path)][/COLOR]</label2>
@@ -585,7 +585,7 @@
 							<onclick>ActivateWindow(1114)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom10)</visible>
 						</control>
-                        <control type="radiobutton" id="51000">
+                        <control type="radiobutton" id="510">
 							<description>custom home 11</description>
 							<font>cirrus_20</font>
 							<width>750</width>
@@ -599,7 +599,7 @@
 							<selected>Skin.HasSetting(Menu_Custom11)</selected>
 							<enable>!Skin.HasSetting(Menu_Movies_Sub11)</enable>
 						</control>
-						<control type="button" id="822100">
+						<control type="button" id="8221">
 							<description>Menu Movies Sub Custom11 Label</description>
 							<label>Label</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom11_Label)][/COLOR]</label2>
@@ -613,7 +613,7 @@
 							<onclick>Skin.SetString(Menu_Custom11_Label)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom11)</visible>
 						</control>
-						<control type="button" id="822200">
+						<control type="button" id="8222">
 							<description>Menu Movies Sub Custom11 Path</description>
 							<label>Pfad</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom11_Path)][/COLOR]</label2>
@@ -628,7 +628,7 @@
 							<onclick>ActivateWindow(1114)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom11)</visible>
 						</control>
-                        <control type="radiobutton" id="51100">
+                        <control type="radiobutton" id="511">
 							<description>custom home 12</description>
 							<font>cirrus_20</font>
 							<width>750</width>
@@ -642,7 +642,7 @@
 							<selected>Skin.HasSetting(Menu_Custom12)</selected>
 							<enable>!Skin.HasSetting(Menu_Movies_Sub12)</enable>
 						</control>
-						<control type="button" id="822300">
+						<control type="button" id="8223">
 							<description>Menu Movies Sub Custom12 Label</description>
 							<label>Label</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom12_Label)][/COLOR]</label2>
@@ -656,7 +656,7 @@
 							<onclick>Skin.SetString(Menu_Custom12_Label)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom12)</visible>
 						</control>
-						<control type="button" id="822400">
+						<control type="button" id="8224">
 							<description>Menu Movies Sub Custom12 Path</description>
 							<label>Pfad</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom12_Path)][/COLOR]</label2>

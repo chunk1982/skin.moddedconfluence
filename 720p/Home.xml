@@ -1058,7 +1058,7 @@
 						<onclick>$INFO[Skin.String(Menu_Custom8_Path)]</onclick>
 						<visible>Skin.HasSetting(Menu_Custom8)</visible>
 					</item>
-					<item id="444001">
+					<item id="508">
 						<description>Custom FAV Five</description>
 						<label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
 						<icon>special://skin/media/backgrounds/custom.jpg</icon>
@@ -1066,7 +1066,7 @@
 						<onclick>$INFO[Skin.String(Menu_Custom9_Path)]</onclick>
 						<visible>Skin.HasSetting(Menu_Custom9)</visible>
 					</item>
-					<item id="444002">
+					<item id="509">
 						<description>Custom FAV Five</description>
 						<label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
 						<icon>special://skin/media/backgrounds/custom.jpg</icon>
@@ -1074,7 +1074,7 @@
 						<onclick>$INFO[Skin.String(Menu_Custom10_Path)]</onclick>
 						<visible>Skin.HasSetting(Menu_Custom10)</visible>
 					</item>
-					<item id="444003">
+					<item id="510">
 						<description>Custom FAV Five</description>
 						<label>$INFO[Skin.String(Menu_Custom11_Label)]</label>
 						<icon>special://skin/media/backgrounds/custom.jpg</icon>
@@ -1082,7 +1082,7 @@
 						<onclick>$INFO[Skin.String(Menu_Custom11_Path)]</onclick>
 						<visible>Skin.HasSetting(Menu_Custom11)</visible>
 					</item>
-					<item id="444004">
+					<item id="511">
 						<description>Custom FAV Five</description>
 						<label>$INFO[Skin.String(Menu_Custom12_Label)]</label>
 						<icon>special://skin/media/backgrounds/custom.jpg</icon>
